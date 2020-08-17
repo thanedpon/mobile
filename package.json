@@ -44,7 +44,7 @@
     "configurations": {
       "ios.sim.debug": {
         "binaryPath": "ios/build/movieSwiper/Build/Products/Debug-iphonesimulator/mobile.app",
-        "build": "xcodebuild -project ios/movieSwiper.xcodeproj -scheme movieSwiper -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+        "build": "xcodebuild -project ios/mobile.xcodeproj -UseNewBuildSystem=NO -scheme mobile -configuration Release -sdk iphonesimulator -derivedDataPath ios/build -quiet",
         "type": "ios.simulator",
         "name": "iPhone 11"
       }
